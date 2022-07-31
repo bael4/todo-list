@@ -49,9 +49,7 @@ const updates = todos.map((todo)=>{
 setTodos(updates)
 }
 
-const editTodo = (id)=>{
-     
-}
+
   
   
 

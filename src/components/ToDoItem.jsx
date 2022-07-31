@@ -1,6 +1,5 @@
 import React from 'react'
 import {AiOutlineCloseCircle,AiFillCheckCircle} from 'react-icons/ai'
-import {MdUpdate} from 'react-icons/md'
 const ToDoItem = ({todo,removeTodo,completeTodo}) => {
   return (
     <div className={todo.completed ? 'todo-row complete' : 'todo-row'}>
@@ -15,9 +14,7 @@ const ToDoItem = ({todo,removeTodo,completeTodo}) => {
             className='icon'
             onClick={()=> completeTodo(todo.id)}
         />
-        <MdUpdate
-             className='icon'
-        />
+     
         </div>
      
     </div>
